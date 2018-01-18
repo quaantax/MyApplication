@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, statsActivity.class);
 
         String message = steamid.getText().toString();
-
         intent.putExtra(EXTRA_MESSAGE, message);
+
         startActivity(intent);
     }
 }
